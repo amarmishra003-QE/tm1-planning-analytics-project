@@ -33,6 +33,30 @@ This repository showcases a sample IBM Planning Analytics / TM1 implementation c
 - SQL / ODBC
 - PAfE
 
+## Business Scenario
+
+This project simulates a real-world Sales Planning and Forecasting solution using IBM Planning Analytics (TM1).
+
+The system is designed to:
+- Load sales data from external sources
+- Store data in multidimensional cubes
+- Apply business rules for calculations
+- Support reporting and planning activities
+
+## My Role
+
+- Developed and maintained TM1 cubes and dimensions
+- Created Turbo Integrator (TI) processes for data load
+- Implemented business rules and feeders
+- Handled production support and incident resolution
+- Worked with stakeholders for requirement analysis
+
+## Incident Handling
+
+- Monitored ticket queues (ServiceNow / Jira)
+- Resolved production issues within SLA
+- Performed root cause analysis for data issues
+
 ## Use Case
 
 This project represents a simple sales planning and reporting use case where source data is loaded into TM1 and used for reporting and planning analysis.

@@ -1,3 +1,10 @@
 # Sample TM1 rule
 ['Profit'] = N:
   ['Revenue'] - ['Cost'];
+# Profit calculation
+['Profit'] = N:
+  ['Revenue'] - ['Cost'];
+
+# Margin calculation
+['Margin %'] = N:
+  IF(['Revenue'] <> 0, (['Profit'] / ['Revenue']) * 100, 0);
